@@ -1,3 +1,16 @@
 <h1>首頁</h1>
 <h2>產品：</h2>
 <a href="https://lwe-lin.github.io/ChessGame/pkg/optimized.wasm">ChessGame</a>
+
+<script>
+  import init from "./pkg/executor_wasm.js";
+
+async function run() {
+    // init() 會自動去抓同資料夾下的 .wasm
+    // 你也可以手動傳入路徑，確保萬無一失
+    await init("./pkg/executor_wasm_bg.wasm");
+    console.log("WASM 已成功載入並運行！");
+}
+
+run();
+</script>
