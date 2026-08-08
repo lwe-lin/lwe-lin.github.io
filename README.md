@@ -3,3 +3,5 @@
 <a href="https://lin-wei-en-tc5t9smr.fermyon.app/">My Warehouse(我的倉庫)</a>
 <br>
 <a href="https://lin-wei-en-tc5t9smr.fermyon.app/chess-game/home/">ChessGame 官網</a>
+
+Copyright (c) 2026 林暐恩 (WEI-EN LIN, GitHub: @lwe-lin). All rights reserved.
